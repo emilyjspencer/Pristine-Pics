@@ -39,7 +39,13 @@ html {
    body {
     background: offwhite;
    }
-   
+
+   .pic {
+
+    width: calc(100% + 4rem);
+    margin: -2rem 0rem 0rem -2rem;
+   }
+    
 
    .photoPage {
     max-width: 1000px;
