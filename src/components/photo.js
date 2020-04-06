@@ -4,7 +4,8 @@ class Photo extends Component {
     render() {
       const post = this.props.post
       return <figure className="captionAndPic">
-        <img src={post.imageLink} alt={post.description}></img>
+        <img className="pic" src={post.imageLink} alt={post.description} />
+        <figcaption> <p> {post.description} </p> </figcaption>
       </figure>
     }
 }
