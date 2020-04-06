@@ -1,6 +1,6 @@
 html {
     font-size: 10px;
-    font-family: sans-serif;
+    font-family: Sofia, sans-serif;
    }
 
   
@@ -56,8 +56,26 @@ html {
 
 .captionAndPic {
     border: 1px solid #d3d3d3;
-    flex-basis: calc(33.33%-4rem);
+    flex-basis: calc(33.333% -4rem);
     padding: 2rem;
     flex-grow: 1;
     margin: 0 2rem 2rem 2rem;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+}
+
+.delete-button {
+    font-size: 18px;
+    font-family: Sophia;
+    flex-basis: 48%;
+    color: rgb(104, 53, 104);
+    border: 2px solid #d3d3d3;
+    padding: 5px;
+    line-height: 2;
+   
+    
+
 }
