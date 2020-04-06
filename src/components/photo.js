@@ -6,6 +6,7 @@ class Photo extends Component {
       return <figure className="captionAndPic">
         <img className="pic" src={post.imageLink} alt={post.description} />
         <figcaption> <p> {post.description} </p> </figcaption>
+        <button>Delete</button>
       </figure>
     }
 }
