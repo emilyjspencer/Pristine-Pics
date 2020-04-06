@@ -11,7 +11,7 @@ class Main extends Component {
     constructor() {
         super()
         this.state = {
-            posts: const posts = [{
+            posts: [{
                 id: "0",
                 description: "Landscape shot",
                 imageLink: "https://image.jimcdn.com/app/cms/image/transf/none/path/sa6549607c78f5c11/image/i4eeacaa2dbf12d6d/version/1490299332/most-beautiful-landscapes-in-europe-lofoten-european-best-destinations-copyright-iakov-kalinin.jpg" +
@@ -28,11 +28,17 @@ class Main extends Component {
                 }]
         }
     }
+        
+    deletePhoto(photoRemoved) {
+        console.log(photoRemoved.description)
+        
+    }
+    
 
   render() {
       return <div>
           <Title title={'Pristine Pics'}/>
-          <PristinePics posts={this.state.posts} />
+          <PristinePics posts={this.state.posts} onDeletePhoto={this.deletePhoto}/>
       </div>
   } 
 }
