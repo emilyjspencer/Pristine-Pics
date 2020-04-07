@@ -2,10 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './styling/stylesheet.css';
 import Main from './components/main.js'
+import {BrowserRouter} from 'react-router-dom'
 
 
 
 
-ReactDOM.render(<Main/>, document.getElementById('root'));
+ReactDOM.render(<BrowserRouter>=Main/></BrowserRouter>, document.getElementById('root'));
 
 
