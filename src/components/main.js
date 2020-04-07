@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import ReactDOM from 'react-dom'
 import Title from './title'
 import PristinePics from './pristinePics'
+import UploadPhoto from './uploadPhoto'
 
 
 
@@ -25,7 +26,9 @@ class Main extends Component {
                 id: "2",
                 description: "Sunny beach shot",
                 imageLink: "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/08/24/104670887-VacationExplainsTHUMBWEB.1910x1000.jpg"
-                }]
+                }],
+
+                page: 'photos'
         }
         this.deletePhoto = this.deletePhoto.bind(this);
     }
@@ -42,9 +45,24 @@ class Main extends Component {
 
   render() {
       return <div>
-          <Title title={'Pristine Pics'}/>
-          <PristinePics posts={this.state.posts} onDeletePhoto={this.deletePhoto}/>
-      </div>
+          {
+              this.state.page === 'photos' && (
+          <div>
+            <Title title={'Pristine Pics'}/>
+            <PristinePics posts={this.state.posts} onDeletePhoto={this.deletePhoto}/>
+          </div>
+            )
+         }
+
+         {
+
+          this.state.page === 'UploadPhoto'  &&(
+          <div> 
+            <UploadPhoto />
+          </div>
+         )
+      }
+      </div>  
   } 
 }
 
