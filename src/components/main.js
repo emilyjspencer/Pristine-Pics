@@ -31,7 +31,9 @@ class Main extends Component {
                 page: 'photos'
         }
         this.deletePhoto = this.deletePhoto.bind(this);
+        this.changePage = this.changePage.bind(this);
     }
+    
         
     deletePhoto(photoDeleted) {
         console.log(photoDeleted.description)
@@ -40,6 +42,11 @@ class Main extends Component {
         })) 
     }
 
+    changePage() {
+        this.setState({
+            page: 'UploadPhoto'
+        })
+    }
     
     
 
@@ -49,14 +56,14 @@ class Main extends Component {
               this.state.page === 'photos' && (
           <div>
             <Title title={'Pristine Pics'}/>
-            <PristinePics posts={this.state.posts} onDeletePhoto={this.deletePhoto}/>
+            <PristinePics posts={this.state.posts} onDeletePhoto={this.deletePhoto} onChangePage = {this.changePage}/>
           </div>
             )
          }
 
          {
 
-          this.state.page === 'UploadPhoto'  &&(
+          this.state.page === 'UploadPhoto'  && (
           <div> 
             <UploadPhoto />
           </div>
