@@ -36,6 +36,8 @@ class Main extends Component {
             posts: state.posts.filter(photo => photo !== photoDeleted)
         })) 
     }
+
+    
     
 
   render() {
