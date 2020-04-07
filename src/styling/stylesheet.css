@@ -78,12 +78,12 @@ html {
    
 }
 
-.add-button {
+
+.add-photo-link {
     margin: 20px auto;
     display: table;
     padding: 35px;
     background: url("https://image.flaticon.com/icons/svg/60/60740.svg") center no-repeat;
     background-size: contain;
     border: none;
-
 }

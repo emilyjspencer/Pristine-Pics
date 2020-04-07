@@ -5,7 +5,7 @@ class PristinePics extends Component {
     render() {
     
        return <div>
-           <a onClick={this.props.onChangePage} href="#AddPhoto"> Click To Add Photos </a>
+           <a className="add-photo-link" onClick={this.props.onChangePage} href="#AddPhoto"></a>
         
           <div className="photoPage">
          {this.props.posts.map((post, index) => <Photo key={index}post={post} onDeletePhoto={this.props.onDeletePhoto} />)}
