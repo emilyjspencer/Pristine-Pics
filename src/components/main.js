@@ -33,6 +33,12 @@ class Main extends Component {
         }
         this.deletePhoto = this.deletePhoto.bind(this);
     }
+
+    addPhoto(postSubmitted) {
+        this.setState(state => ({
+            posts: state.posts.concat([postSubmitted])
+        }))
+    }
     
         
     deletePhoto(photoDeleted) {
@@ -55,12 +61,18 @@ class Main extends Component {
           </div>
         )}/>
         
-          <Route path="/AddPhoto" render= {() => (
-            <div> 
-              <UploadPhoto />
+          <Route path="/AddPhoto" render ={({history}) => (
+          
+              <UploadPhoto onAddPhoto={(addedPost) => {
+                 this.addPhoto(addedPost)
+                 history.push('/')
+               
+              }} />
+          )}/>
+            
             </div>
-          )} />
-          </div>
+       
+         
       )
     }
 }
