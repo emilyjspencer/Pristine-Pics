@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import Title from './title'
 import PristinePics from './pristinePics'
 import UploadPhoto from './uploadPhoto'
+import {Route} from 'react-router-dom'
 
 
 
@@ -31,7 +32,6 @@ class Main extends Component {
                 page: 'photos'
         }
         this.deletePhoto = this.deletePhoto.bind(this);
-        this.changePage = this.changePage.bind(this);
     }
     
         
@@ -42,35 +42,27 @@ class Main extends Component {
         })) 
     }
 
-    changePage() {
-        this.setState({
-            page: 'UploadPhoto'
-        })
-    }
-    
-    
+
 
   render() {
-      return <div>
-          {
-              this.state.page === 'photos' && (
+      return (
+     
+      <div>
+        <Route exact path = "/" render={() => (
           <div>
             <Title title={'Pristine Pics'}/>
             <PristinePics posts={this.state.posts} onDeletePhoto={this.deletePhoto} onChangePage = {this.changePage}/>
           </div>
-            )
-         }
-
-         {
-
-          this.state.page === 'UploadPhoto'  && (
-          <div> 
-            <UploadPhoto />
+        )}/>
+        
+          <Route path="/AddPhoto" render= {() => (
+            <div> 
+              <UploadPhoto />
+            </div>
+          )} />
           </div>
-         )
-      }
-      </div>  
-  } 
+      )
+    }
 }
 
 
