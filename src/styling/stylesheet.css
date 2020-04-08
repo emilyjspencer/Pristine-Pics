@@ -67,7 +67,7 @@ html {
     justify-content: center;
 }
 
-.delete-button {
+button {
     font-size: 18px;
     font-family: Sophia;
     flex-basis: 48%;
@@ -75,6 +75,7 @@ html {
     border: 2px solid #d3d3d3;
     padding: 5px;
     line-height: 2;
+    background: #e4cee0;
    
 }
 
@@ -86,4 +87,42 @@ html {
     background: url("https://image.flaticon.com/icons/svg/60/60740.svg") center no-repeat;
     background-size: contain;
     border: none;
+}
+
+.form {
+   background: rgb(243, 247, 248); 
+   max-width: 360px;
+   margin: 0 auto;
+   padding: 45px;
+   text-align: center;
+}
+
+.form input {
+    font-family: sans-serif;
+    font-size: 14px;
+    background: #b8c3c7;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 0 0 15px;
+}
+
+.form button {
+
+    text-transform: uppercase;
+    background: #949093;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    cursor: pointer;   
+}
+
+.form button:hover{
+    background:#7b8589;
+}
+
+button:hover{
+    border-color: #7b8589;
 }
