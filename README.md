@@ -1,3 +1,36 @@
+# Pristine Pics
+
+## About
+
+Pristine Pics is an app built with React, which allows users to upload and display or delete photos.
+
+## How to run 
+
+* Clone the project - git clone https://github.com/emilyjspencer/Pristine-Pics.git
+* cd into the repo
+* In the terminal, type: npm start
+* Go to the following address in the browser: localhost:3030
+
+
+
+## Built with
+
+* React
+* JavaScript
+* HTML/CSS
+
+
+
+## What it looks like:
+
+![title](pristinepics_title.png)
+![deletephoto](pristinepics_deletephoto.png)
+![uploadphoto](pristinepics_uploadphoto.png)
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
