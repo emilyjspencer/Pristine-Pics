@@ -26,13 +26,14 @@ The application will open automatically in the browser at localhost:3000
 
 ### What it looks like:
 
-Deployed with Surge at guiltless-clouds.surge.sh
 
 ![surge](surge.png)
 ![beach](beach.png)
 ![woods](woods.png)
 ![mountains](mountains.png)
 ![uploadphoto](pristinepics_uploadphoto.png)
+
+Deployed with Surge at guiltless-clouds.surge.sh
 
 
 
