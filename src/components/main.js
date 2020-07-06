@@ -1,9 +1,9 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import Title from './title'
 import PristinePics from './pristinePics'
 import UploadPhoto from './uploadPhoto'
-import {Route} from 'react-router-dom'
+import { Route } from 'react-router-dom'
 
 
 
@@ -15,16 +15,16 @@ class Main extends Component {
         this.state = {
             posts: [{
                 id: "0",
-                description: "Night shot",
-                imageLink: "http://i1.ytimg.com/vi/Bb0EeDT0meQ/maxresdefault.jpg"
+                description: "Beach shot",
+                imageLink: "https://aspenchamber.org/sites/default/files/images/Beach.stockimage.jpg"
                 }, {
                 id: "1",
-                description: "Space shot",
-                imageLink: "http://i1.ytimg.com/vi/Bb0EeDT0meQ/maxresdefault.jpg"
+                description: "Mountain shot",
+                imageLink: "https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/Taiwan_16x9.jpg?itok=-5n1YhQH"
                 }, {
                 id: "2",
-                description: "Lake shot",
-                imageLink: "http://i1.ytimg.com/vi/8w-bKttzA-0/maxresdefault.jpg"
+                description: "Forest shot",
+                imageLink: "http://allpicts.in/wp-content/uploads/2018/09/High-Resolution-Nature-Photo-with-Picture-of-Autumn-Forest.jpg"
                 }],
 
                 page: 'photos'
