@@ -10,7 +10,10 @@ Pristine Pics is an app built with React, which allows users to upload and displ
 * cd into the repo
 * In the terminal, type the following to install the dependencies:
 ```html
+npm install
+```
 * Then, enter the following:
+```html
 npm start
 ```
 The application will open automatically in the browser at localhost:3000
