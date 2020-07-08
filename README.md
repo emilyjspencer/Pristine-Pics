@@ -4,7 +4,9 @@
 
 Pristine Pics is an app built with React, which allows users to upload and display or delete photos.
 
+
 ### Deployed with Surge at: [this link](http://guiltless-clouds.surge.sh/)!
+
 
 ### How to run: 
 
