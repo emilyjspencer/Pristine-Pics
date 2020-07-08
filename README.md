@@ -1,6 +1,6 @@
 # Pristine Pics
 
-### About
+# About
 
 Pristine Pics is an app built with React, which allows users to upload and display or delete photos.
 
