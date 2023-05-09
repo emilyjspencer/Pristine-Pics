@@ -20,7 +20,7 @@ class Main extends Component {
           id: "1",
           description: "Mountain shot",
           imageLink:
-            "https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/Taiwan_16x9.jpg?itok=-5n1YhQH",
+            "https://img.freepik.com/free-photo/digital-painting-mountain-with-colorful-tree-foreground_1340-25699.jpg?t=st=1683643657~exp=1683644257~hmac=1e8b36233f8885f170054cfcba0b81f900c1e73450fadf7e4372f5d81ebd0e6b",
         },
         {
           id: "2",
