@@ -5,7 +5,7 @@
 **Pristine Pics** is an app built with React, which allows users to upload and display or delete photos.
 
 
-**Pristine Pics** is deployed with **Surge** at: [this link](http://guiltless-clouds.surge.sh/)!
+**Pristine Pics** is deployed with **Surge** at: [this link](https://null-zipper.surge.sh/)!
 
 
 ### How to run: 
@@ -37,7 +37,7 @@ The application will open automatically in the browser at localhost:3000
 ![mountains](mountains.png)
 ![uploadphoto](pristinepics_uploadphoto.png)
 
-### Deployed with Surge at: [this link](http://guiltless-clouds.surge.sh/)!
+### Deployed with Surge at: [this link](https://null-zipper.surge.sh/)!
 
 
 
