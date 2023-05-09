@@ -1,128 +1,130 @@
 html {
-    font-size: 10px;
-    font-family: Sofia, sans-serif;
-   }
+  font-size: 10px;
+  font-family: Sofia, sans-serif;
+}
 
-  
-   h1 {
-    font-family: billabong, 'billabongregular';
-    text-align: center;
-    font-weight: 100;
-    font-size: 13rem;
-    margin: 2rem 0;
-    letter-spacing: -1px;
-    color: black;
-    text-decoration: none;
-   }
+h1 {
+  font-family: billabong, "billabongregular";
+  text-align: center;
+  font-weight: 100;
+  font-size: 13rem;
+  margin: 2rem 0;
+  letter-spacing: -1px;
+  color: black;
+  text-decoration: none;
+}
 
-   h1 a {
-    color: black;
-    text-decoration: none;
-   }
-   h1 a:focus {
-    outline: 0;
-   }
+h1 a {
+  color: black;
+  text-decoration: none;
+}
+h1 a:focus {
+  outline: 0;
+}
 
-   p {
-    font-size: 1.6rem;
-    line-height: 1.5;
-   }
-   
-   @font-face {
-    font-family: 'billabongregular';
-    src: url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot");
-    src: url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot?#iefix") format('embedded-opentype'), url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.woff") format('woff'), url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.ttf") format('truetype'), url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.svg#billabongregular") format('svg');
-    font-weight: normal;
-    font-style: normal;
-   }
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
 
-   body {
-    background: offwhite;
-   }
+@font-face {
+  font-family: "billabongregular";
+  src: url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot");
+  src: url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.woff")
+      format("woff"),
+    url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.ttf")
+      format("truetype"),
+    url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.svg#billabongregular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 
-   .pic {
-    width: calc(100% + 4rem);
-    margin: -2rem 0rem 0rem -2rem;
-   }
-    
+body {
+  background: offwhite;
+}
 
-   .photoPage {
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
+.pic {
+  width: calc(100% + 4rem);
+  margin: -2rem 0rem 0rem -2rem;
+}
 
+.photoPage {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .captionAndPic {
-    border: 1px solid #d3d3d3;
-    flex-basis: calc(33.333% -4rem);
-    padding: 2rem;
-    flex-grow: 1;
-    margin: 0 2rem 2rem 2rem;
+  border: 1px solid #d3d3d3;
+  flex-basis: calc(33.333% -4rem);
+  padding: 2rem;
+  flex-grow: 1;
+  margin: 0 2rem 2rem 2rem;
 }
 
 .container-button {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 button {
-    font-size: 18px;
-    font-family: Sophia;
-    flex-basis: 48%;
-    color: rgb(104, 53, 104);
-    border: 2px solid #d3d3d3;
-    padding: 5px;
-    line-height: 2;
-    background: #e4cee0;
-   
+  font-size: 18px;
+  font-family: Sophia;
+  flex-basis: 48%;
+  color: rgb(104, 53, 104);
+  border: 2px solid #d3d3d3;
+  padding: 5px;
+  line-height: 2;
+  background: #e4cee0;
 }
 
-
 .add-photo-link {
-    margin: 20px auto;
-    display: table;
-    padding: 35px;
-    background: url("https://image.flaticon.com/icons/svg/60/60740.svg") center no-repeat;
-    background-size: contain;
-    border: none;
+  margin: 20px auto;
+  display: table;
+  padding: 35px;
+  background: url("../components/plus.png") center no-repeat;
+  background-size: contain;
+  border: none;
+  border-radius: 50px;
 }
 
 .form {
-   background: rgb(243, 247, 248); 
-   max-width: 360px;
-   margin: 0 auto;
-   padding: 45px;
-   text-align: center;
+  background: rgb(243, 247, 248);
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 45px;
+  text-align: center;
 }
 
 .form input {
-    font-family: sans-serif;
-    font-size: 14px;
-    background: #b8c3c7;
-    border: none;
-    width: 100%;
-    padding: 15px;
-    box-sizing: border-box;
-    margin: 0 0 15px;
+  font-family: sans-serif;
+  font-size: 14px;
+  background: #b8c3c7;
+  border: none;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  margin: 0 0 15px;
 }
 
 .form button {
-
-    text-transform: uppercase;
-    background: #949093;
-    width: 100%;
-    border: none;
-    padding: 15px;
-    color: white;
-    cursor: pointer;   
+  text-transform: uppercase;
+  background: #949093;
+  width: 100%;
+  border: none;
+  padding: 15px;
+  color: white;
+  cursor: pointer;
 }
 
-.form button:hover{
-    background:#7b8589;
+.form button:hover {
+  background: #7b8589;
 }
 
-button:hover{
-    border-color: #7b8589;
+button:hover {
+  border-color: #7b8589;
 }
